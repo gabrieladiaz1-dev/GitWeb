@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Mis Materias Aprobadas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .materias {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .materia {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 220px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .materia:hover {
+      transform: scale(1.05);
+    }
+
+    .materia img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .materia h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+      color: #34495e;
+    }
+
+    .materia p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Materias que he aprobado</h1>
+
+  <div class="materias">
+    <div class="materia">
+      <h2>Matemáticas</h2>
+      <p>Aprendí operaciones, álgebra básica y geometría.</p>
+    </div>
+
+    <div class="materia">
+      <h2>Lenguaje</h2>
+      <p>Desarrollo de la lectura, escritura y comunicación.</p>
+    </div>
+
+    <div class="materia">
+      <h2>Ciencias Naturales</h2>
+      <p>Estudié los seres vivos, el ambiente y la energía.</p>
+    </div>
+
+    <div class="materia">
+      <h2>Estudios Sociales</h2>
+      <p>Aprendí historia, geografía y cultura.</p>
+    </div>
+
+    <div class="materia">
+      <h2>Inglés</h2>
+      <p>Comprensión lectora y comunicación básica.</p>
+    </div>
+  </div>
+</body>
+</html>
